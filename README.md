@@ -1,2 +1,2 @@
-# University-Tournament-Anywhere
+# University-Tournament-everywhere
 どこでも大学トーナメント
