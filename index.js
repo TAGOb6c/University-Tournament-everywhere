@@ -26,7 +26,7 @@ client.on('messageCreate', async message => {
     message.channel.send(frank[
         Math.floor(Math.random() * frank.length)
         ])
-      }
+        }
     });
 });
 
