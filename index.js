@@ -22,7 +22,7 @@ client.once('ready', () => {
 client.on('messageCreate', async message => {
   if (message.author.bot) return;
   if (message.channel.name === 'どこでも大学トーナメントと触れ合う場所') {
-  if(message.content.match('')) {
+  if (message.content.match('')) {
     message.channel.send(frank[
         Math.floor(Math.random() * frank.length)
         ])
