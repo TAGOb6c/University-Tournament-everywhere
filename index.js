@@ -19,15 +19,12 @@ client.once('ready', () => {
   console.log(`${client.user.tag} is ready!`)
 }); 
 
+client.login(token)
+
 client.on('messageCreate', async message => {
   if (message.author.bot) return;
-  if (message.channel.name === 'どこでも大学トーナメントと触れ合う場所') {
   if (message.content.match('')) {
     message.channel.send(frank[
         Math.floor(Math.random() * frank.length)
-        ])
-        }
-    });
+        ])}
 });
-
-client.login(token)
