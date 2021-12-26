@@ -13,5 +13,5 @@
 
 おやすみって言ってくれる機能は不安定なんで一旦省いてます
 
-###license
+### license
 MIT license
