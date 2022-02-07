@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "毛沢東",
+  "author": "なぽれおん3号",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^13.3.1",
