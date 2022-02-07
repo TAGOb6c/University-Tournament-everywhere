@@ -1,5 +1,6 @@
 const { Client, Intents } = require('discord.js');
-const { token } = require('./config.json');
+const { token } = require('./assets/config.json');
+const { frank } = require('./assets/frank.json');
 const options = {
     intents: [
       "GUILDS",
@@ -7,8 +8,6 @@ const options = {
       ],
  };
 const client = new Client(options);
-
-const { frank } = require('./assets/frank.json');
 
 client.once('ready', () => {
   setInterval(() => {
