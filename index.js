@@ -10,9 +10,7 @@ const options = {
 const client = new Client(options);
 
 client.once('ready', () => {
-    client.user.setActivity(`”お前ら”`, {
-      type: 'WATCHING'
-    });
+    client.user.setActivity(`”お前ら”`, { type: 'WATCHING' });
   console.log(`${client.user.tag} is ready!`)
 }); 
 
