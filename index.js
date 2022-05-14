@@ -11,7 +11,7 @@ const client = new Client(options);
 
 client.once('ready', () => {
     client.user.setActivity(`”お前ら”`, { type: 'WATCHING' });
-  console.log(`${client.user.tag} is ready!`)
+    console.log(`${client.user.tag} is ready!`)
 }); 
 
 client.login(token)
