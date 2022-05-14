@@ -10,11 +10,9 @@ const options = {
 const client = new Client(options);
 
 client.once('ready', () => {
-  setInterval(() => {
     client.user.setActivity(`”お前ら”`, {
       type: 'WATCHING'
-      });
-    }, 600000)
+    });
   console.log(`${client.user.tag} is ready!`)
 }); 
 
