@@ -1,13 +1,13 @@
 # University-Tournament-everywhere
+
 ### どこでも大学トーナメント
+Discord.js(v13)
 
-DJS v13(たしか)
+### What is this?
+とあるユーザーの構文をランダムに送るBot
 
-### これはなに？
-
-とあるユーザーの言動をbot化したものです
-
-全てのメッセージに反応するのでチャンネル指定とか適当にコードに追加してやってください
+> [!WARNING]
+> すべてのメッセージに反応するため, チャンネル指定などを行う必要があります
 
 ### license
 MIT license
