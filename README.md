@@ -1,7 +1,7 @@
 # University-Tournament-everywhere
 
 ### どこでも大学トーナメント
-Discord.js(v13)
+Discord.js v14
 
 ### What is this?
 とある構文をランダムに送るBot
