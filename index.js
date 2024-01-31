@@ -1,16 +1,16 @@
-const { Client, Intents } = require('discord.js');
+const { Client, GatewayIntentBits } = require('discord.js');
 const { token } = require('./assets/config.json');
 const { frank } = require('./assets/frank.json');
 const options = {
     intents: [
-      "GUILDS",
-      "GUILD_MESSAGES"
+      GatewayIntentBits.Guilds,
+      GatewayIntentBits.GuildMessages,
       ],
  };
 const client = new Client(options);
 
 client.once('ready', () => {
-    client.user.setActivity(`”お前ら”`, { type: 'WATCHING' });
+//    client.user.setActivity(`”お前ら”`, { type: 'WATCHING' });
     console.log(`${client.user.tag} is ready!`)
 }); 
 
